@@ -1,0 +1,27 @@
+.maps__content {
+  overflow: hidden;
+}
+
+.maps__content iframe {
+  width: 100%;
+  height: 210px;
+}
+
+.maps__text {
+  color: rgba(29, 6, 5, 0.9);
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.maps__text h3 {
+  font-size: 3.2rem;
+  font-family: 'Lilita One';
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 940px) {
+  .maps__text h3 {
+    font-size: 2.5rem;
+  }
+}

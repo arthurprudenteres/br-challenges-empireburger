@@ -1,0 +1,122 @@
+#offer {
+  margin-bottom: 64px;
+}
+.offer__content {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+}
+
+.offer__content img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.offer__text, 
+.second__offer,
+.terd__offer {
+  color: var(--brown);
+}
+
+.offer__text h2 {
+  font-family: 'Lilita One';
+  font-weight: 400;
+  font-size: 3.2rem;
+  margin-bottom: 4px;
+}
+
+.offer__text p {
+  margin-bottom: 16px;
+}
+
+.main__offer {
+  grid-row: 1/3;
+}
+
+.main__offer, 
+.second__offer, 
+.terd__offer {
+  position: relative;
+}
+
+.offer__title {
+  position: absolute;
+  top: 12px;
+  left: 17px;
+}
+
+.offer__title h3 {
+  font-weight: 400;
+  font-family: 'Lilita One';
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+.offer__title span {
+  font-size: 1.8rem;
+}
+
+.offer__subtitle {
+  position: absolute;
+  bottom: 15px;
+  right: 35px;
+}
+
+.offer__subtitle h4 {
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
+.offer__subtitle span {
+  font-family: 'Lilita One';
+  font-size: 4.2rem;
+}
+
+.second__offer h3, .terd__offer h3 {
+  font-size: 2rem;
+}
+
+@media screen and  (max-width: 940px) {
+  #offer {
+    margin-bottom: 38px;
+  }
+
+  .offer__content {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .offer__subtitle {
+    position: absolute;
+    bottom: 155px;
+    right: 35px;
+  }
+
+  .offer__text h2 {
+    font-size: 2.5rem;
+    margin-bottom: 8px;
+  }
+  
+  .offer__text p {
+    font-size: 1.6rem;
+  }
+
+  .offer__title h3 {
+    font-size: 2.05rem;
+  }
+  
+  .offer__subtitle {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+  }
+
+  .offer__subtitle h4 {
+    font-size: 1.1rem;
+  }
+
+  .offer__subtitle span {
+    font-family: 'Lilita One';
+    font-size: 2rem;
+  }
+}

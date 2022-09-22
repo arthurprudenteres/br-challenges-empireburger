@@ -1,0 +1,49 @@
+:root {
+  --red: #F43127;
+  --yellow: #F59A1B;
+  --white: #FFFFFF;
+  --white-bg: #FAF3F2;
+  --brown: #3B200B;
+  --beige: #FAE2CB;
+  --title-black: #34201F;
+  --title-black2: #635352;
+  --green: #1eb63d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--white-bg);
+}
+
+body, 
+button  {
+  color: var(--white-bg);
+  font: 400 1.6rem "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}

@@ -1,0 +1,75 @@
+.pedido {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--red);
+  padding: 14px 24px;
+  border-radius: 10px;
+  margin-bottom: 64px;
+}
+
+.pedido__left {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 15px;
+}
+
+.pedido__icon {
+  padding: 20px 30px;
+  background: rgba(29, 6, 5, 0.2);
+  border-radius: 50%;
+}
+
+.pedido__text {
+  border-left: 1px solid rgba(29, 6, 5, 0.4);
+  padding-left: 15px;
+  max-width: 50ch;
+}
+
+.pedido__text h4{
+  font-size: 2.5rem;
+  font-family: 'Lilita One';
+  font-weight: 400;
+  color: rgba(29, 6, 5, 0.69);
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.pedido__right button {
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: var(--beige);
+  border: none;
+  color: var(--red);
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+@media (max-width: 940px) {
+  .pedido {
+    justify-content: center;
+  }
+  .pedido__left {
+    justify-content: center;
+  }
+  .pedido__text {
+    border-top: 1px solid rgba(29, 6, 5, 0.4);
+    border-left: none;
+    padding-top: 8px;
+  }
+  .pedido__text h4 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  .pedido__text p {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+  }
+  .pedido__right,
+  .pedido__right button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,106 @@
+.schedules {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.times {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  padding: 18px 22px;
+  background: var(--red);
+  border-radius: 10px;
+}
+
+.times.open {
+  background: var(--green);
+}
+
+.times__image {
+  padding: 16px 22px 18px;
+  background: rgba(29, 6, 5, 0.2);
+  border-radius: 50%  ;
+  margin-right: 15px;
+}
+
+.times__text {
+  padding-right: 65px;
+  padding-left: 15px;
+  border-left: 1px solid rgba(29, 6, 5, 0.4);
+}
+
+.times__text h3 {
+  font-family: 'Lilita One';
+  font-size: 2.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(29, 6, 5, 0.69);
+  margin-bottom: 4px;
+}
+
+.times__text p {
+  line-height: 140%;
+  font-weight: 700;
+}
+
+.times__text p span {
+  font-weight: 900;
+}
+
+.schedules__text span {
+  font-size: 1.8rem;
+  color: rgba(29, 6, 5, 0.69);
+  margin-bottom: 3px;
+}
+
+.schedules__text p {
+  font-family: 'Lilita One';
+  font-weight: 400;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+@media screen and (max-width: 940px) {
+  .schedules {
+    justify-content: center;
+    margin-bottom: 64px;
+    gap: 0;
+  }
+  .times {
+    padding: 19px 12px;
+    margin-bottom: 64px;
+  }
+
+  .times__image {
+    padding: 13px 17px;
+    margin-right: 12px;
+  }
+
+  .times__text {
+    padding-right: 0px;
+    padding-left: 12px;
+  }
+
+  .times__text h3 {
+    font-size: 1.8rem;
+  }
+
+  .times__text p {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+
+  .times__text p span {
+    font-weight: 400;
+  }
+
+  .schedules__text {
+    text-align: center;
+  }
+}

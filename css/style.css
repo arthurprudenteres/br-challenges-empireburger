@@ -1,0 +1,15 @@
+@import url(./global/app.css);
+@import url(./global/header.css);
+@import url(./global/footer.css);
+@import url(./global/global.css);
+
+@import url(./home/infos.css);
+@import url(./home/offer.css);
+@import url(./home/schedules.css);
+@import url(./home/map.css);
+@import url(./home/menu.css);
+@import url(./home/atendimento.css);
+@import url(./home/entregas.css);
+@import url(./home/pedido.css);
+@import url(./home/realeza.css);
+@import url(./home/instagram.css);
