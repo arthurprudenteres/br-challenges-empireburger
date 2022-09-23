@@ -16,11 +16,11 @@
 .footer__nav ul a {
   font-size: 1.8rem;
   color: var(--title-black);
+  transition: all .3s;
 }
 
-.footer__nav ul li:first-child a {
-  font-weight: 700;
-  color: var(--title-black);
+.footer__nav ul a:hover {
+  text-shadow: 0px 0px 1px var(--brown);
 }
 
 .footer__social {

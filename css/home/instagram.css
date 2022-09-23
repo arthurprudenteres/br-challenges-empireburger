@@ -27,6 +27,7 @@
 .instagram-images::before {
   content: "";
   position: absolute;
+  visibility: none;
   inset: 0;
   width: 100%;
   background: linear-gradient(270.22deg, #21201B 1%, rgba(33, 32, 27, 0) 15%);
