@@ -52,7 +52,7 @@
 
 .schedules__text span {
   font-size: 1.8rem;
-  color: rgba(29, 6, 5, 0.69);
+  color: var(--brown);
   margin-bottom: 3px;
 }
 

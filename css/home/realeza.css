@@ -6,11 +6,11 @@
   font: 400 3.2rem 'Lilita One', sans-serif;
   text-transform: uppercase;
   margin-bottom: 4px;
-  color: rgba(29, 6, 5, 0.9);
+  color: var(--brown);
 }
 
 .realeza > p {
-  color: rgba(29, 6, 5, 0.69);
+  color: var(--brown);
   margin-bottom: 16px;
 }
 
@@ -48,7 +48,7 @@
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;  
   overflow: hidden;
-  color: rgba(29, 6, 5, 0.69);
+  color: var(--brown);
   margin-bottom: 16px;
 }
 
@@ -65,7 +65,7 @@
 }
 
 .person-info {
-  color: rgba(29, 6, 5, 0.9);
+  color: var(--brown);
   display: flex;
   flex-direction: column;
   margin-left: 8px;
