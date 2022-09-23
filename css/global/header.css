@@ -1,5 +1,5 @@
 .header {
-  background-image: url(../../assets/banner-hero.png);
+  background-image: url(/assets/banner-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -91,9 +91,7 @@
 }
 
 .header__hero h1 {
-  font-family: 'Lilita One';
-  font-weight: 400;
-  font-size: 7.76rem;
+  font: 400 7.75rem 'Lilita One', sans-serif;
 }
 
 .header__hero h1 span {
@@ -143,7 +141,7 @@
 .burger__content li {
   width: 100%;
   height: 3px;
-  background: rgba(29, 6, 5, 0.9);
+  background: var(--brown);
   border-radius: 3px;
 }
 
@@ -178,7 +176,7 @@
 
 @media screen and (max-width: 680px) {
   .header {
-    background-image: url(../../assets/banner-mobile.png);
+    background-image: url(/assets/banner-mobile.png);
   }
 
   .header__hero {
