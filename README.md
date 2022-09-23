@@ -14,42 +14,42 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 ## 🚀 Tecnologias
 
-- [HTML](http://localhost:3000/)
-- [CSS](http://localhost:3000/)
-- [JavaScript](http://localhost:3000/)
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/HTML_basics)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/CSS_basics)
+- [JavaScript](https://www.javascript.com/)
 
 ## 📝 Critérios de aceite
 
-- [ ] Criar as seguintes seções: Menu, Banner hero, Ofertas especiais, Onde fica o nosso castelo, Footer.
+- [X] Criar as seguintes seções: Menu, Banner hero, Ofertas especiais, Onde fica o nosso castelo, Footer.
 
-- [ ] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
+- [X] Ao clicar em um item do menu, o usuário deverá ser levado para a seção correspondente.
 
-- [ ] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
+- [X] Na seção Ofertas especiais os elementos devem ser organizados com o uso da propriedade display:grid do css.
 
-- [ ] As informações do card da oferta(nome do prato e gramagem) devem estar no html, a única imagem deve ser a foto do prato com o preço.
+- [X] As informações do card da oferta(nome do prato e gramagem) devem estar no html, a única imagem deve ser a foto do prato com o preço.
 
-- [ ] Na seção Onde fica o nosso castelo você deverá incorporar uma localização do google maps.
+- [X] Na seção Onde fica o nosso castelo você deverá incorporar uma localização do google maps.
 
 ### Nível Médio
 
-- [ ] Todos os requisitos do nivel fácil.
+- [X] Todos os requisitos do nivel fácil.
 
-- [ ] Criar as seguintes seções: Cardápio, Atendimento, Nossas entregas.
+- [X] Criar as seguintes seções: Cardápio, Atendimento, Nossas entregas.
 
-- [ ] Na seção Cardápio os preços devem ser formatados com o método Intl.NumberFormat.
+- [X] Na seção Cardápio os preços devem ser formatados com o método Intl.NumberFormat.
 
-- [ ] O card Horário de funcionamento deverá ter os estados aberto e fechado, o estado será alterado conforme o horário do navegador do usuário.
+- [X] O card Horário de funcionamento deverá ter os estados aberto e fechado, o estado será alterado conforme o horário do navegador do usuário.
 
 ### Nível Difícil
 
-- [ ] Todos os requisitos do nivel fácil e médio
+- [X] Todos os requisitos do nivel fácil e médio
 
-- [ ] Criar as seguintes seções: Nossa realeza, Publicações do instagram.
+- [X] Criar as seguintes seções: Nossa realeza, Publicações do instagram.
 
-- [ ] Buscar a lista de itens do cardápio via api.
+- [X] Buscar a lista de itens do cardápio via api.
 
 - [ ] Buscar a lista de depoimentos via api.
 
 - [ ] Na seção Nossa realeza os depoimentos deverão estar em um carrousel funcional.
 
-- [ ] O texto de cada depoimento deverá estar limitado em quatro linhas, você pode usar a propriedade clamp do css.
+- [X] O texto de cada depoimento deverá estar limitado em quatro linhas, você pode usar a propriedade clamp do css.
