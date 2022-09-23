@@ -7,11 +7,9 @@
 }
 
 .atendimento__textos h3 {
-  font-family: 'Lilita One';
-  font-weight: 400;
-  font-size: 4.17rem;
+  font: 400 4.17rem 'Lilita One', sans-serif;
   text-transform: uppercase;
-  color: rgba(29, 6, 5, 0.9);
+  color: var(--brown);
   margin-bottom: 10px;
 }
 
@@ -25,7 +23,7 @@
   font-size: 2rem;
   max-width: 40ch;
   margin-bottom: 20px;
-  color: rgba(29, 6, 5, 0.69);
+  color: var(--brown);
 }
 
 .atendimento__textos button {

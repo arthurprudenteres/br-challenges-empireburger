@@ -10,7 +10,7 @@
   top: 0;
   right: 50%;
   bottom: 0;
-  background: url(/assets/banner-menu.png) no-repeat center right;
+  background: url(../../assets/banner-menu.png) no-repeat center right;
   z-index: -1;
 }
 
@@ -124,7 +124,7 @@
     top: 0; 
     right: 0;
     bottom: 67%;
-    background: url(/assets/banner-menu.png) no-repeat center right;
+    background: url(../../assets/banner-menu.png) no-repeat center right;
     z-index: -1;
   }
   .menu::after {

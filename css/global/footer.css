@@ -50,7 +50,7 @@
   color: #020E1F4D;
 }
 
-@media screen and (max-width: 940px) { 
+@media screen and (max-width: 800px) { 
   .footer__logo {
     order: 0;
     margin-bottom: 13px;

@@ -1,5 +1,5 @@
 .header {
-  background-image: url(/assets/banner-hero.png);
+  background-image: url(../../assets/banner-hero.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -178,7 +178,7 @@
 
 @media screen and (max-width: 680px) {
   .header {
-    background-image: url(/assets/banner-mobile.png);
+    background-image: url(../../assets/banner-mobile.png);
   }
 
   .header__hero {

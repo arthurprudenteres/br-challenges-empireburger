@@ -29,19 +29,18 @@
 
 .info__text {
   max-width: 18ch;
-  color: rgba(29, 6, 5, 0.9);
+  color: var(--brown);
   margin-left: 18px;
 }
 
 .info__text h3 {
-  font-family: 'Lilita One';
-  font-size: 2rem;
+  font: 400 2rem 'Lilita One', sans-serif;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
 
 .info__text p {
-  color: rgba(29, 6, 5, 0.6);
+  color: var(--brown);
 }
 
 #info__border1 {

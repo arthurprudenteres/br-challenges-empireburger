@@ -14,13 +14,11 @@
 }
 
 .maps__text h3 {
-  font-size: 3.2rem;
-  font-family: 'Lilita One';
-  font-weight: 400;
+  font: 400 3.2rem 'Lilita One', sans-serif;
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 800px) {
   .maps__text h3 {
     font-size: 2.5rem;
   }

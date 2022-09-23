@@ -19,9 +19,7 @@
 }
 
 .offer__text h2 {
-  font-family: 'Lilita One';
-  font-weight: 400;
-  font-size: 3.2rem;
+  font: 400 3.2rem 'Lilita One', sans-serif;
   margin-bottom: 4px;
 }
 
@@ -46,9 +44,7 @@
 }
 
 .offer__title h3 {
-  font-weight: 400;
-  font-family: 'Lilita One';
-  font-size: 2.5rem;
+  font: 400 2.5rem 'Lilita One', sans-serif;
   text-transform: uppercase;
 }
 
@@ -68,15 +64,14 @@
 }
 
 .offer__subtitle span {
-  font-family: 'Lilita One';
-  font-size: 4.2rem;
+  font: 400 4.2rem 'Lilita One', sans-serif;
 }
 
 .second__offer h3, .terd__offer h3 {
   font-size: 2rem;
 }
 
-@media screen and  (max-width: 940px) {
+@media screen and  (max-width: 800px) {
   #offer {
     margin-bottom: 38px;
   }
@@ -116,7 +111,6 @@
   }
 
   .offer__subtitle span {
-    font-family: 'Lilita One';
     font-size: 2rem;
   }
 }
