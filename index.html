@@ -8,6 +8,9 @@
   <title>Empire Burger - BR Challenges</title>
   <meta name="description" content="BR Challenges - Empire Burger"/>
 
+  <!-- GLIDER JS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+
   <!-- FAVICON -->
   <link rel="shortcut icon" type="image/jpg" href="./assets/icons/burger.svg"/>
 
@@ -75,9 +78,9 @@
               </button>
             </div>
             <div class="burger__menu">
-              <div class="burger__content">
+              <div class="burger__bars">
                 <ul>
-                  <li></li>
+                  <li></li> 
                   <li></li>
                   <li></li>
                 </ul>
@@ -102,7 +105,7 @@
             <div class="infos">
               <div class="info__item" id="info__border1">
                 <div class="info__icon">
-                  <img src="./assets/icons/burger.svg" alt="icon burger">
+                  <img src="./assets/icons/burger.svg" alt="ícone burger">
                 </div>
                 <div class="info__text">
                   <h3>Artesanal</h3>
@@ -111,7 +114,7 @@
               </div>
               <div class="info__item" id="info__border2">
                 <div class="info__icon">
-                  <img src="./assets/icons/headset.svg" alt="icon headset">
+                  <img src="./assets/icons/headset.svg" alt="ícone headset">
                 </div>
                 <div class="info__text">
                   <h3>Atendimento</h3>
@@ -120,7 +123,7 @@
               </div>
               <div class="info__item" id="info__border3">
                 <div class="info__icon">
-                  <img src="./assets/icons/delivery.svg" alt="icon delivery">
+                  <img src="./assets/icons/delivery.svg" alt="ícone delivery">
                 </div>
                 <div class="info__text">
                   <h3>DELIVERY Speed</h3>
@@ -151,21 +154,21 @@
                 <h3>Batata</h3>
                 <span>150kg</span>
               </div>
-              <img src="./assets/ofertas/oferta-2.png" alt="oferta especial 1">
+              <img src="./assets/ofertas/oferta-2.png" alt="oferta especial 2">
             </div>
             <div class="terd__offer">
               <div class="offer__title">
                 <h3>Sorvete</h3>
                 <span>50kg</span>
               </div>
-              <img src="./assets/ofertas/oferta-3.png" alt="oferta especial 1">
+              <img src="./assets/ofertas/oferta-3.png" alt="oferta especial 3">
             </div>
           </div>
         </section>
         <section class="schedules">
           <div id="times" class="times">
             <div class="times__image">
-              <img src="./assets/icons/timer.svg" alt="horario funcionamento">
+              <img src="./assets/icons/timer.svg" alt="ícone de relógio">
             </div>
             <div class="times__text">
               <h3>Horário de funcionamento</h3>
@@ -242,11 +245,11 @@
 
       <section class="atendimento container">
         <div class="atendimento__image">
-          <img src="./assets/card-woman-eating.png" alt="">
+          <img src="./assets/card-woman-eating.png" alt="mulher comendo sanduíche">
         </div>
         <div class="atendimento__textos">
           <h3>Atendimento <br> <span>personalizado</span></h3>
-          <p>Todos os nossos clientes são tratados como rei e rainha, com a nossa colunaria artesanal.</p>
+          <p>Todos os nossos clientes são tratados como rei e rainha, com a nossa culinária artesanal.</p>
           <button type="button">Cardápio Imperial</button>
         </div>
       </section>
@@ -254,52 +257,152 @@
       <section class="realeza container" id="comentarios">
         <h3>Nossa realeza</h3>
         <p>A satisfação de nossos clientes em primeiro lugar!</p>
-        <ul class="carousel-realeza" >
-          <li class="carousel-box" id="carousel-selected">
-            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin.”</p>
+        <div class="carousel-realeza glider">
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
             <div class="person">
-              <img src="./assets/person-1.jpg" alt="foto de perfil">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
               <div class="person-info">
-                <p>Carlos Gomes</p>
-                <p><span>23 Anos </span>•<span> Designer</span></p>
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
               </div>
             </div>
-          </li>
-          <li class="carousel-box">
-            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin.”</p>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
             <div class="person">
-              <img src="./assets/person-1.jpg" alt="foto de perfil">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
               <div class="person-info">
-                <p>Carlos Gomes</p>
-                <p><span>23 Anos </span>•<span> Designer</span></p>
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
               </div>
             </div>
-          </li>
-          <li class="carousel-box">
-            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin.”</p>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
             <div class="person">
-              <img src="./assets/person-1.jpg" alt="foto de perfil">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
               <div class="person-info">
-                <p>Carlos Gomes</p>
-                <p><span>23 Anos </span>•<span> Designer</span></p>
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
               </div>
             </div>
-          </li>
-          <li class="carousel-box">
-            <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin.”</p>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
             <div class="person">
-              <img src="./assets/person-1.jpg" alt="foto de perfil">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
               <div class="person-info">
-                <p>Carlos Gomes</p>
-                <p><span>23 Anos </span>•<span> Designer</span></p>
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
               </div>
             </div>
-          </li>
-        </ul>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
+            <div class="person">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
+              <div class="person-info">
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
+            <div class="person">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
+              <div class="person-info">
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
+            <div class="person">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
+              <div class="person-info">
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
+            <div class="person">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
+              <div class="person-info">
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
+            <div class="person">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
+              <div class="person-info">
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
+            <div class="person">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil">
+              </div>
+              <div class="person-info">
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="glider__box">
+            <!-- TESTIMONIAL -->
+            <p class="feedback"></p>
+            <div class="person">
+              <div class="person-img">
+                <img src="./assets/person-1.jpg" alt="foto de perfil"></div>
+              <div class="person-info">
+                <p class="person-name"></p>
+                <p><span class="person-age"></span> • <span class="person-profession">Designer</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="carousel-bars">
-          <div class="bar" id="selected-bar"></div>
-          <div class="bar"></div>
-          <div class="bar"></div>
         </div>
       </section>
 
@@ -471,6 +574,7 @@
       </div>
     </footer>
   </div>
+  <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
   <script src="./script/script.js"></script>
 </body>
 </html>
