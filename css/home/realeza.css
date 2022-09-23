@@ -1,5 +1,6 @@
 .realeza {
   padding-top: 128px;
+  overflow: hidden;
 }
 
 .realeza h3 {
@@ -20,7 +21,6 @@
   gap: 12px;
   position: relative;
   margin-bottom: 16px;
-  overflow: hidden;
 }
 
 .carousel-realeza::before {
@@ -29,7 +29,6 @@
   inset: 0;
   width: 100%;
   background: linear-gradient(271.8deg, #FAF3F2 5%, rgba(250, 243, 242, 0) 40%);
-  overflow: hidden;  
 }
 
 #carousel-selected {
