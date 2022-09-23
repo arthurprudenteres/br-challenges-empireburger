@@ -101,7 +101,7 @@
   flex-wrap: wrap;
 }
 
-.content__right .menu__description:not(:last-child) {
+.content__right .menu__item:not(:last-child) {
   margin-bottom: 32px;
 }
 
