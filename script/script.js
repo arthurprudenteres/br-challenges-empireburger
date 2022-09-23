@@ -2,46 +2,40 @@ const selectPrice = document.querySelectorAll(".price");
 const selectPlate = document.querySelectorAll(".plate");
 const selectIngredients = document.querySelectorAll(".menu__description");
 
-async function getMenu() {
-  const response = await fetch("https://api.brchallenges.com/api/empire-burger/menu");
-  const data = await response.json();
-
-  function setPrices() {
-    const prices = data.map(menu =>{
-      return menu.price;
-    })
-    prices.forEach((price, index) => {
-      const newPrice = Intl.NumberFormat("pt-BR", {
-        style: "currency",
-        currency: "BRL",
-      }).format(price);
-      selectPrice[index].textContent = `${newPrice}`;
+fetch('https://api.brchallenges.com/api/empire-burger/menu')
+.then(response => response.json())
+.then(data => {
+    
+  const formatted = new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
     });
+    
+  const prices = data.map(menu => {
+    return menu.price;
+  })
+  const newPrice = prices.map(price => {
+    return formatted.format(price)
+  })
 
-  }
-  setPrices(data);
+  const plates = data.map(menu => {
+    return menu.plate;
+  })
+  
+  const ingredients = data.map(menu => {
+    return menu.ingredients;
+  })
 
-  function setPlates() {
-    const plates = data.map(menu => {
-      return menu.plate;
+  function setData(data, selector) {
+    data.forEach((plates, index) => {
+      selector[index].textContent = `${plates}`
     })
-    plates.forEach((plates, index) => {
-      selectPlate[index].textContent = `${plates}`
-    })
   }
-  setPlates(data);  
 
-  function setIngredients() {
-    const ingredients = data.map(menu => {
-      return menu.ingredients;
-    })
-    ingredients.forEach((ingredients, index) =>{
-      selectIngredients[index].textContent = `${ingredients}`
-     })
-    }
-    setIngredients(data);
-
-  }
+  setData(newPrice, selectPrice);
+  setData(plates, selectPlate);
+  setData(ingredients, selectIngredients)
+})
   
 function changeColor() {
   const boxColor = document.getElementById("times");
@@ -60,5 +54,4 @@ function changeColor() {
   }
 }
 
-getMenu();
 changeColor();
