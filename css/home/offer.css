@@ -1,6 +1,7 @@
 #offer {
   margin-bottom: 64px;
 }
+
 .offer__content {
   display: grid;
   grid-template-columns: auto auto;
@@ -69,6 +70,12 @@
 
 .second__offer h3, .terd__offer h3 {
   font-size: 2rem;
+}
+
+@media (max-width: 1300px) {
+  .offer__subtitle {
+    display: none;
+  }
 }
 
 @media screen and  (max-width: 800px) {
