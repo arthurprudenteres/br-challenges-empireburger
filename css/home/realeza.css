@@ -35,7 +35,7 @@
 
 .glider__box > p {
   display: -webkit-box;
-  -webkit-line-clamp: 3;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;  
   overflow: hidden;
   color: var(--brown);
@@ -102,5 +102,8 @@
   }
   .carousel-bars.glider-dot {
     margin-bottom: 64px;
+  }
+  .glider__box:not(:first-child) {
+    margin-left: 10px;  
   }
 }

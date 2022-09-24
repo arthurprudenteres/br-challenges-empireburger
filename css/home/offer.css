@@ -10,6 +10,7 @@
 
 .offer__content img {
   width: 100%;
+  height: 100%;
   border-radius: 10px;
 }
 
@@ -73,6 +74,9 @@
 }
 
 @media (max-width: 1300px) {
+  .offer__content img {
+    height: auto;
+  }
   .offer__subtitle {
     display: none;
   }
