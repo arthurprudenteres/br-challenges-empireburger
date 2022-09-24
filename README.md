@@ -48,8 +48,8 @@ Para facilitar a codificação do projeto foi usado um protótipo do figma como 
 
 - [X] Buscar a lista de itens do cardápio via api.
 
-- [ ] Buscar a lista de depoimentos via api.
+- [X] Buscar a lista de depoimentos via api.
 
-- [ ] Na seção Nossa realeza os depoimentos deverão estar em um carrousel funcional.
+- [X] Na seção Nossa realeza os depoimentos deverão estar em um carrousel funcional.
 
 - [X] O texto de cada depoimento deverá estar limitado em quatro linhas, você pode usar a propriedade clamp do css.

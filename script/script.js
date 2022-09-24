@@ -6,27 +6,18 @@ function menu() {
   fetch('https://api.brchallenges.com/api/empire-burger/menu')
   .then(response => response.json())
   .then(data => {
-
+    
+    const ingredients = data.map(({ingredients}) => ingredients);
+    const plates = data.map(({plate}) =>  plate);
+    const prices = data.map(({price}) => price);
     const formatted = new Intl.NumberFormat("pt-BR", {
       style: "currency",
       currency: "BRL",
       });
+      const newPrice = prices.map(price => {
+        return formatted.format(price)
+      })
       
-    const prices = data.map(menu => {
-      return menu.price;
-    })
-    const newPrice = prices.map(price => {
-      return formatted.format(price)
-    })
-
-    const plates = data.map(menu => {
-      return menu.plate;
-    })
-    
-    const ingredients = data.map(menu => {
-      return menu.ingredients;
-    })
-
     function setData(data, selector) {
       data.forEach((plates, index) => {
         selector[index].textContent = `${plates}`
@@ -104,12 +95,21 @@ function data(){
 }
 
 new Glider(document.querySelector('.glider'), {
-  slidesToShow: 4,
-  slidesToScroll: 2,
+  slidesToShow: 1,
   draggable: true,
-  dragVelocity: 0.8,
+  dragVelocity: 1,
   duration: 3,
-  dots: '.carousel-bars',
+  dots: '',
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 4,
+        duration: 3,
+        dots: '.carousel-bars'
+      }
+    }
+  ]
 },
 );
 
