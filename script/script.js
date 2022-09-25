@@ -27,8 +27,7 @@ function menu() {
     setData(newPrice, selectPrice);
     setData(plates, selectPlate);
     setData(ingredients, selectIngredients)
-})
-
+  })
 }
 
 function changeColor() {
@@ -113,6 +112,25 @@ new Glider(document.querySelector('.glider'), {
 },
 );
 
+function burgerMenu(){
+  const btnMobile = document.getElementById('burger__menu');
+  const navSection = document.getElementById('header__nav');
+  
+  btnMobile.addEventListener('click', () =>{
+    navSection.classList.toggle('active'); 
+    btnMobile.classList.toggle('active'); 
+  });
+  
+  document.querySelectorAll('.nav__link').
+  forEach(n => n.addEventListener('click', () =>{
+    navSection.classList.remove('active');
+    btnMobile.classList.remove('active');
+  }));
+}
+
+burgerMenu();
 data();
 menu();
 changeColor();
+
+
